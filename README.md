@@ -13,7 +13,7 @@
 [![](https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge)]()
 
 ### ❓ How to install ?
-To install you just need to put the `yellowed.toml` file into the themes folder of your Helix config folder. This one should be on ~/.config/helix/themes on linux or %AppData%\helix\themes on windows.
+To install you just need to put the `yellowed.toml` file into the themes folder of your Helix config folder. This one should be on `~/.config/helix/themes` on linux or `%AppData%\helix\themes` on windows.
 
 ### ⚙️ Color Palet
 ~~~
