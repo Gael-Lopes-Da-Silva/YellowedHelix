@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-  :gear: Yellowed is a simple material dark theme for VHelix wich focus his syntax color on the golden yellow. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme for emacs, but changed a bit.</p>
+  :gear: Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme for emacs, but changed a bit.</p>
 
 ---
 
