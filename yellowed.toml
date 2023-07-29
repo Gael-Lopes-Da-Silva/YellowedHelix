@@ -1,6 +1,6 @@
 # author: Gael Lopes Da Silva
 # project: Runned
-# github: https://github.com/Gael-Lopes-Da-Silva/RunnedHelix
+# github: https://github.com/Gael-Lopes-Da-Silva/YellowedHelix
 
 "attribute"                       = { fg = "text" }
 "type"                            = { fg = "text" }
@@ -30,7 +30,7 @@
 "function"                        = { fg = "text", modifiers = ["bold"] }
 "tag"                             = { fg = "keywords", modifiers = ["bold"] }
 "namespace"                       = { fg = "text" }
-"special"                         = { fg = "text" }
+"special"                         = { fg = "yellow" }
 
 "markup.heading.marker"           = { fg = "keywords", modifiers = ["bold"] }
 "markup.heading.1"                = { fg = "text", modifiers = ["bold"] }
@@ -70,18 +70,18 @@
 "ui.highlight.frameline"          = { fg = "cursor_line" }
 "ui.linenr"                       = { fg = "light_gray" }
 "ui.linenr.selected"              = { fg = "yellow" }
-"ui.statusline"                   = { fg = "text", bg = "light_gray" }
-"ui.statusline.inactive"          = { fg = "light-gray", bg = "light_gray" }
+"ui.statusline"                   = { fg = "text", bg = "gray" }
+"ui.statusline.inactive"          = { fg = "light_gray", bg = "gray" }
 "ui.statusline.normal"            = { bg = "light_gray" }
 "ui.statusline.insert"            = { bg = "green" }
 "ui.statusline.select"            = { bg = "purple" }
 "ui.statusline.separator"         = { fg = "dark_gray" }
-"ui.popup"                        = { bg = "dark_gray", fg = "text" }
-"ui.popup.info"                   = { bg = "dark_gray", fg = "text" }
+"ui.popup"                        = { bg = "menu", fg = "text" }
+"ui.popup.info"                   = { bg = "menu", fg = "text" }
 "ui.window"                       = { fg = "text" }
-"ui.help"                         = { fg = "text", bg = "dark_gray" }
+"ui.help"                         = { fg = "text", bg = "menu" }
 "ui.text"                         = { fg = "text" }
-"ui.text.focus"                   = { fg = "text" }
+"ui.text.focus"                   = { bg = "gray" }
 "ui.text.inactive"                = { fg = "text" }
 "ui.text.info"                    = { fg = "text" }
 "ui.virtual.ruler"                = { bg = "light_gray" }
@@ -120,6 +120,7 @@ dark_gray   = "#242424"
 light_gray  = "#545454"
 purple      = "#994c92"
 blue        = "#008DFF"
+menu        = "#202020"
 selection   = "#3f3f3f"
 
 # syntaxe
