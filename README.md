@@ -18,7 +18,7 @@
 ![screenshot3](./screenshots/screenshot3.png)
 
 ### :question: How to install ?
-To install you just need to put the `yellowed.toml` file into the themes folder of your Helix config folder. This one should be on `~/.config/helix/themes` on linux or `%AppData%\helix\themes` on windows.
+To install the theme you just need to put the `yellowed.toml` file into the themes folder of your Helix config folder. This one should be on `~/.config/helix/themes` on linux or `%AppData%\helix\themes` on windows. See [here](https://docs.helix-editor.com/themes.html) for more informations.
 
 ### :gear: Color Palet
 ~~~
