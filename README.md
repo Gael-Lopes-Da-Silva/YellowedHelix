@@ -43,3 +43,5 @@ error       - [#FF0000]
 info        - [#0092FF]
 hint        - [#4DFF00]
 ~~~
+
+(you can find my Helix configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyHelixConfig))
