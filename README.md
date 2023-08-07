@@ -4,13 +4,10 @@
 
 ---
 
-<p align="center">
-  :gear: Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the <a href="https://github.com/rexim/gruber-darker-theme">gruber-darker</a> theme for emacs, but changed a bit.</p>
+> [!NOTE]
+> Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs, but changed a bit.
 
 ---
-
-<!-- https://shields.io/ -->
-[![](https://img.shields.io/badge/license-BSD%203--Clause-blue?style=for-the-badge)]()
 
 ### :framed_picture: Screenshots
 ![screenshot1](./screenshots/screenshot1.png)
@@ -44,4 +41,5 @@ info        - [#0092FF]
 hint        - [#4DFF00]
 ~~~
 
-(you can find my Helix configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyHelixConfig))
+> [!NOTE]
+> You can find my Helix configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyHelixConfig).
