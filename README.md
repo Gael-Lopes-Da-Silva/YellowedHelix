@@ -29,7 +29,7 @@ blue        - [#008DFF]
 menu        - [#202020]
 selection   - [#3f3f3f]
 
-Syntaxe
+Syntax
 text        - [#FFFFFF]
 comment     - [#6b6b6b]
 string      - [#378b1d]
