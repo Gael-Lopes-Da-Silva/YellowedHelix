@@ -2,12 +2,13 @@
 # project: Runned
 # github: https://github.com/Gael-Lopes-Da-Silva/YellowedHelix
 
-"attribute"                       = { fg = "text" }
+# syntax
+"attribute"                       = { fg = "function", modifiers = ["bold"] }
 "type"                            = { fg = "text" }
 "type.builtin"                    = { fg = "keywords" }
 "type.enum"                       = { fg = "keywords" }
 "constructor"                     = { fg = "text", modifiers = ["bold"] }
-"constant"                        = { fg = "text", modifiers = ["bold"] }
+"constant"                        = { fg = "constants", modifiers = ["bold"] }
 "constant.builtin"                = { fg = "constants", modifiers = ["bold"] }
 "constant.character"              = { fg = "string" }
 "constant.character.escape"       = { fg = "constants", modifiers = ["bold"] }
@@ -18,19 +19,23 @@
 "variable"                        = { fg = "text" }
 "variable.builtin"                = { fg = "keywords" }
 "variable.parameter"              = { fg = "text", modifiers = ["italic"] }
+"variable.other"                  = { fg = "text" }
 "label"                           = { fg = "text" }
 "punctuation"                     = { fg = "text" }
 "punctuation.special"             = { fg = "constants", modifiers = ["bold"] }
+"punctuation.delimiter"           = { fg = "text" }
+"punctuation.bracket"             = { fg = "text" }
 "keyword"                         = { fg = "keywords", modifiers = ["bold"] }
 "keyword.control"                 = { fg = "keywords" }
 "keyword.control.return"          = { fg = "keywords", modifiers = ["bold"] }
 "keyword.operator"                = { fg = "keywords" }
-"keyword.directive"               = { fg = "keywords" }
+"keyword.directive"               = { fg = "keywords", modifiers = ["bold"] }
+"keyword.function"                = { fg = "keywords", modifiers = ["bold"] }
 "operator"                        = { fg = "keywords" }
-"function"                        = { fg = "text", modifiers = ["bold"] }
+"function"                        = { fg = "function", modifiers = ["bold"] }
 "tag"                             = { fg = "keywords", modifiers = ["bold"] }
 "namespace"                       = { fg = "text" }
-"special"                         = { fg = "yellow" }
+"special"                         = { fg = "keywords" }
 
 "markup.heading.marker"           = { fg = "keywords", modifiers = ["bold"] }
 "markup.heading.1"                = { fg = "text", modifiers = ["bold"] }
@@ -47,18 +52,19 @@
 "markup.quote"                    = { fg = "text" }
 "markup.raw"                      = { fg = "string" }
 
+# interface
 "diff.plus"                       = { fg = "green" }
 "diff.minus"                      = { fg = "red" }
 "diff.delta"                      = { fg = "blue" }
-"diff.delta.moved"                = { fg = "gray" }
+"diff.delta.moved"                = { fg = "light_gray" }
 
-"ui.background"                   = { bg = "dark_gray", fg = "text" }
-"ui.background.separator"         = { fg = "text" }
+"ui.background"                   = { bg = "gray", fg = "white" }
+"ui.background.separator"         = { fg = "white" }
 "ui.cursor"                       = { bg = "yellow", fg = "black" }
 "ui.cursor.normal"                = { bg = "yellow", fg = "black" }
 "ui.cursor.insert"                = { bg = "yellow", fg = "black" }
 "ui.cursor.select"                = { bg = "yellow", fg = "black" }
-"ui.cursor.match"                 = { bg = "light_gray" }
+"ui.cursor.match"                 = { bg = "smoke" }
 "ui.cursor.primary"               = { bg = "yellow", fg = "black" }
 "ui.cursor.primary.normal"        = { bg = "yellow", fg = "black" }
 "ui.cursor.primary.insert"        = { bg = "yellow", fg = "black" }
@@ -68,44 +74,44 @@
 "ui.gutter"                       = { fg = "light_gray" }
 "ui.gutter.selected"              = { fg = "light_gray" }
 "ui.highlight.frameline"          = { fg = "gray" }
-"ui.linenr"                       = { fg = "light_gray" }
-"ui.linenr.selected"              = { fg = "yellow" }
-"ui.statusline"                   = { fg = "text", bg = "gray" }
-"ui.statusline.inactive"          = { fg = "light_gray", bg = "gray" }
-"ui.statusline.normal"            = { bg = "light_gray" }
-"ui.statusline.insert"            = { bg = "green" }
-"ui.statusline.select"            = { bg = "purple" }
-"ui.statusline.separator"         = { fg = "dark_gray" }
-"ui.popup"                        = { bg = "menu", fg = "text" }
-"ui.popup.info"                   = { bg = "menu", fg = "text" }
-"ui.window"                       = { fg = "text" }
-"ui.help"                         = { fg = "text", bg = "menu" }
-"ui.text"                         = { fg = "text" }
-"ui.text.focus"                   = { bg = "gray" }
-"ui.text.inactive"                = { fg = "text" }
-"ui.text.info"                    = { fg = "text" }
+"ui.linenr"                       = { fg = "smoke" }
+"ui.linenr.selected"              = { fg = "yellow", modifiers = ["bold"] }
+"ui.statusline"                   = { fg = "white", bg = "dark_gray", modifiers = ["bold"] }
+"ui.statusline.inactive"          = { fg = "light_gray", bg = "dark_gray" }
+"ui.statusline.normal"            = { bg = "light_gray", modifiers = ["bold"] }
+"ui.statusline.insert"            = { bg = "green", modifiers = ["bold"] }
+"ui.statusline.select"            = { bg = "purple", modifiers = ["bold"] }
+"ui.statusline.separator"         = { fg = "gray" }
+"ui.popup"                        = { bg = "dark_gray", fg = "white" }
+"ui.popup.info"                   = { bg = "dark_gray", fg = "white" }
+"ui.window"                       = { fg = "white" }
+"ui.help"                         = { fg = "white", bg = "dark_gray" }
+"ui.text"                         = { fg = "white" }
+"ui.text.focus"                   = { bg = "light_gray" }
+"ui.text.inactive"                = { fg = "white" }
+"ui.text.info"                    = { fg = "white", modifiers = ["bold"] }
 "ui.virtual.ruler"                = { bg = "light_gray" }
 "ui.virtual.whitespace"           = { fg = "light_gray" }
-"ui.virtual.indent-guide"         = { fg = "light_gray" }
+"ui.virtual.indent-guide"         = { fg = "smoke" }
 "ui.virtual.inlay-hint"           = { fg = "light_gray" }
 "ui.virtual.inlay-hint.parameter" = { fg = "light_gray" }
 "ui.virtual.inlay-hint.type"      = { fg = "light_gray" }
 "ui.virtual.wrap"                 = { fg = "light_gray" }
-"ui.menu"                         = { fg = "text", bg = "gray" }
-"ui.menu.selected"                = { fg = "text", bg = "light_gray", modifiers = ["bold"] }
+"ui.menu"                         = { fg = "white", bg = "dark_gray" }
+"ui.menu.selected"                = { fg = "white", bg = "gray", modifiers = ["bold"] }
 "ui.menu.scroll"                  = { fg = "light_gray", bg = "dark_gray" }
-"ui.selection"                    = { bg = "selection" }
-"ui.selection.primary"            = { bg = "selection" }
+"ui.selection"                    = { bg = "smoke" }
+"ui.selection.primary"            = { bg = "smoke" }
 "ui.highlight"                    = { bg = "light_gray" }
-"ui.cursorline.primary"           = { bg = "gray" }
-"ui.cursorline.secondary"         = { bg = "gray" }
-"ui.cursorcolumn.primary"         = { bg = "gray" }
-"ui.cursorcolumn.secondary"       = { bg = "gray" }
+"ui.cursorline.primary"           = { bg = "light_gray" }
+"ui.cursorline.secondary"         = { bg = "light_gray" }
+"ui.cursorcolumn.primary"         = { bg = "light_gray" }
+"ui.cursorcolumn.secondary"       = { bg = "light_gray" }
 
-"warning"                         = { fg = "warning" }
-"error"                           = { fg = "error" }
-"info"                            = { fg = "info" }
-"hint"                            = { fg = "hint" }
+"warning"                         = { fg = "warning", modifiers = ["bold"] }
+"error"                           = { fg = "error", modifiers = ["bold"] }
+"info"                            = { fg = "info", modifiers = ["bold"] }
+"hint"                            = { fg = "hint", modifiers = ["bold"] }
 
 "diagnostic.warning"              = { underline = { color = "warning", style = "curl" } }
 "diagnostic.error"                = { underline = { color = "error", style = "curl" } }
@@ -114,22 +120,22 @@
 
 [palette]
 # interface
-yellow      = "#ffd900"
-gray        = "#2a2a2a"
-dark_gray   = "#242424"
-light_gray  = "#545454"
-purple      = "#994c92"
-blue        = "#008DFF"
-menu        = "#202020"
-selection   = "#3f3f3f"
+gray         = "#1F1F1F"
+dark_gray    = "#181818"
+light_gray   = "#303030"
+smoke        = "#565656"
+yellow       = "#FFD900"
+purple       = "#994C92"
+blue         = "#008DFF"
+warning      = "#FF9C00"
+error        = "#FF0000"
+info         = "#0092FF"
+hint         = "#4DFF00"
 
 # syntax
-text        = "#FFFFFF"
-comment     = "#6b6b6b"
-string      = "#378b1d"
-constants   = "#ff80f4"
-keywords    = "#ffd900"
-warning     = "#FF9C00"
-error       = "#FF0000"
-info        = "#0092FF"
-hint        = "#4DFF00"
+text         = "#FFFFFF"
+comment      = "#6B6B6B"
+string       = "#378B1D"
+constants    = "#FF80F4"
+keywords     = "#FFD900"
+function     = "#9B9B9B"
