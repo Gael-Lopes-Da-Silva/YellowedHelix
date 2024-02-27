@@ -36,4 +36,4 @@ info        - [#0092FF]
 hint        - [#4DFF00]
 ~~~
 
-### 🗒️ You can find my Helix configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyHelixConfig).
+#### 🗒️ You can find my Helix configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyHelixConfig).
