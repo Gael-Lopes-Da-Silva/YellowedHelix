@@ -6,6 +6,7 @@
 "attribute"                       = { fg = "function", modifiers = ["bold"] }
 "type"                            = { fg = "text" }
 "type.builtin"                    = { fg = "keywords" }
+"type.parameter"                  = { fg = "text", modifiers = ["bold"] }
 "type.enum"                       = { fg = "keywords" }
 "constructor"                     = { fg = "text", modifiers = ["bold"] }
 "constant"                        = { fg = "constants", modifiers = ["bold"] }
@@ -31,6 +32,7 @@
 "keyword.operator"                = { fg = "keywords" }
 "keyword.directive"               = { fg = "keywords", modifiers = ["bold"] }
 "keyword.function"                = { fg = "keywords", modifiers = ["bold"] }
+"keyword.storage"                 = { fg = "keywords" }
 "operator"                        = { fg = "keywords" }
 "function"                        = { fg = "function", modifiers = ["bold"] }
 "tag"                             = { fg = "keywords", modifiers = ["bold"] }
@@ -117,6 +119,8 @@
 "diagnostic.error"                = { underline = { color = "error", style = "curl" } }
 "diagnostic.info"                 = { underline = { color = "info", style = "curl" } }
 "diagnostic.hint"                 = { underline = { color = "hint", style = "curl" } }
+"diagnostic.unnecessary"          = { underline = { color = "", style = "curl" } }
+"diagnostic.deprecated"           = { underline = { color = "", style = "curl" } }
 
 [palette]
 # interface
@@ -129,8 +133,10 @@ purple       = "#994C92"
 blue         = "#008DFF"
 warning      = "#FF9C00"
 error        = "#FF0000"
-info         = "#0092FF"
-hint         = "#4DFF00"
+info         = "#0006ab"
+hint         = "#0006ab"
+deprecated   = "#4f4f4f"
+unnecessary  = "#4f4f4f"
 
 # syntax
 text         = "#FFFFFF"
