@@ -4,40 +4,40 @@
 
 # syntax
 "attribute"                       = { fg = "function", modifiers = ["bold"] }
-"type"                            = { fg = "text" }
-"type.builtin"                    = { fg = "keywords" }
-"type.parameter"                  = { fg = "text", modifiers = ["bold"] }
-"type.enum"                       = { fg = "keywords" }
-"constructor"                     = { fg = "text", modifiers = ["bold"] }
+"comment"                         = { fg = "comment" }
 "constant"                        = { fg = "constants", modifiers = ["bold"] }
 "constant.builtin"                = { fg = "constants", modifiers = ["bold"] }
 "constant.character"              = { fg = "string" }
 "constant.character.escape"       = { fg = "constants", modifiers = ["bold"] }
 "constant.numeric"                = { fg = "keywords" }
-"string"                          = { fg = "string" }
-"string.regexp"                   = { fg = "constants" }
-"comment"                         = { fg = "comment" }
-"variable"                        = { fg = "text" }
-"variable.builtin"                = { fg = "keywords" }
-"variable.parameter"              = { fg = "text", modifiers = ["italic"] }
-"variable.other"                  = { fg = "text" }
-"label"                           = { fg = "text" }
-"punctuation"                     = { fg = "text" }
-"punctuation.special"             = { fg = "constants", modifiers = ["bold"] }
-"punctuation.delimiter"           = { fg = "text" }
-"punctuation.bracket"             = { fg = "text" }
+"constructor"                     = { fg = "text", modifiers = ["bold"] }
+"function"                        = { fg = "function", modifiers = ["bold"] }
 "keyword"                         = { fg = "keywords", modifiers = ["bold"] }
 "keyword.control"                 = { fg = "keywords" }
 "keyword.control.return"          = { fg = "keywords", modifiers = ["bold"] }
-"keyword.operator"                = { fg = "keywords" }
 "keyword.directive"               = { fg = "keywords", modifiers = ["bold"] }
 "keyword.function"                = { fg = "keywords", modifiers = ["bold"] }
+"keyword.operator"                = { fg = "keywords" }
 "keyword.storage"                 = { fg = "keywords" }
-"operator"                        = { fg = "keywords" }
-"function"                        = { fg = "function", modifiers = ["bold"] }
-"tag"                             = { fg = "keywords", modifiers = ["bold"] }
+"label"                           = { fg = "text" }
 "namespace"                       = { fg = "text" }
+"operator"                        = { fg = "keywords" }
+"punctuation"                     = { fg = "text" }
+"punctuation.bracket"             = { fg = "text" }
+"punctuation.delimiter"           = { fg = "text" }
+"punctuation.special"             = { fg = "constants", modifiers = ["bold"] }
 "special"                         = { fg = "keywords" }
+"string"                          = { fg = "string" }
+"string.regexp"                   = { fg = "constants" }
+"tag"                             = { fg = "keywords", modifiers = ["bold"] }
+"type"                            = { fg = "text" }
+"type.builtin"                    = { fg = "keywords" }
+"type.enum"                       = { fg = "keywords" }
+"type.parameter"                  = { fg = "text", modifiers = ["bold"] }
+"variable"                        = { fg = "text" }
+"variable.builtin"                = { fg = "keywords" }
+"variable.other"                  = { fg = "text" }
+"variable.parameter"              = { fg = "text", modifiers = ["italic"] }
 
 "markup.heading.marker"           = { fg = "keywords", modifiers = ["bold"] }
 "markup.heading.1"                = { fg = "text", modifiers = ["bold"] }
@@ -62,53 +62,57 @@
 
 "ui.background"                   = { bg = "gray", fg = "white" }
 "ui.background.separator"         = { fg = "white" }
+"ui.bufferline"                   = { fg = "light_gray" }
+"ui.bufferline.active"            = { fg = "white", modifiers = ["bold"] }
+"ui.bufferline.background"        = { bg = "dark_gray" }
 "ui.cursor"                       = { bg = "yellow", fg = "black" }
-"ui.cursor.normal"                = { bg = "yellow", fg = "black" }
 "ui.cursor.insert"                = { bg = "yellow", fg = "black" }
-"ui.cursor.select"                = { bg = "yellow", fg = "black" }
 "ui.cursor.match"                 = { bg = "smoke" }
+"ui.cursor.normal"                = { bg = "yellow", fg = "black" }
 "ui.cursor.primary"               = { bg = "yellow", fg = "black" }
-"ui.cursor.primary.normal"        = { bg = "yellow", fg = "black" }
 "ui.cursor.primary.insert"        = { bg = "yellow", fg = "black" }
+"ui.cursor.primary.normal"        = { bg = "yellow", fg = "black" }
 "ui.cursor.primary.select"        = { bg = "yellow", fg = "black" }
-"ui.debug.breakpoint"             = { fg = "red" }
+"ui.cursor.select"                = { bg = "yellow", fg = "black" }
+"ui.cursorcolumn.primary"         = { bg = "light_gray" }
+"ui.cursorcolumn.secondary"       = { bg = "light_gray" }
+"ui.cursorline.primary"           = { bg = "light_gray" }
+"ui.cursorline.secondary"         = { bg = "light_gray" }
 "ui.debug.active"                 = { fg = "green" }
+"ui.debug.breakpoint"             = { fg = "red" }
 "ui.gutter"                       = { fg = "light_gray" }
 "ui.gutter.selected"              = { fg = "light_gray" }
+"ui.help"                         = { fg = "white", bg = "dark_gray" }
+"ui.highlight"                    = { bg = "light_gray" }
 "ui.highlight.frameline"          = { fg = "gray" }
 "ui.linenr"                       = { fg = "smoke" }
 "ui.linenr.selected"              = { fg = "yellow", modifiers = ["bold"] }
-"ui.statusline"                   = { fg = "white", bg = "dark_gray", modifiers = ["bold"] }
-"ui.statusline.inactive"          = { fg = "light_gray", bg = "dark_gray" }
-"ui.statusline.normal"            = { bg = "light_gray", modifiers = ["bold"] }
-"ui.statusline.insert"            = { bg = "green", modifiers = ["bold"] }
-"ui.statusline.select"            = { bg = "purple", modifiers = ["bold"] }
-"ui.statusline.separator"         = { fg = "gray" }
+"ui.menu"                         = { fg = "white", bg = "dark_gray" }
+"ui.menu.scroll"                  = { fg = "light_gray", bg = "dark_gray" }
+"ui.menu.selected"                = { fg = "white", bg = "gray", modifiers = ["bold"] }
 "ui.popup"                        = { bg = "dark_gray", fg = "white" }
 "ui.popup.info"                   = { bg = "dark_gray", fg = "white" }
-"ui.window"                       = { fg = "white" }
-"ui.help"                         = { fg = "white", bg = "dark_gray" }
+"ui.selection"                    = { bg = "smoke" }
+"ui.selection.primary"            = { bg = "smoke" }
+"ui.statusline"                   = { fg = "white", bg = "dark_gray", modifiers = ["bold"] }
+"ui.statusline.inactive"          = { fg = "light_gray", bg = "dark_gray" }
+"ui.statusline.insert"            = { bg = "green", modifiers = ["bold"] }
+"ui.statusline.normal"            = { bg = "light_gray", modifiers = ["bold"] }
+"ui.statusline.select"            = { bg = "purple", modifiers = ["bold"] }
+"ui.statusline.separator"         = { fg = "gray" }
 "ui.text"                         = { fg = "white" }
 "ui.text.focus"                   = { bg = "light_gray" }
 "ui.text.inactive"                = { fg = "white" }
 "ui.text.info"                    = { fg = "white", modifiers = ["bold"] }
-"ui.virtual.ruler"                = { bg = "light_gray" }
-"ui.virtual.whitespace"           = { fg = "light_gray" }
 "ui.virtual.indent-guide"         = { fg = "smoke" }
 "ui.virtual.inlay-hint"           = { fg = "light_gray" }
 "ui.virtual.inlay-hint.parameter" = { fg = "light_gray" }
 "ui.virtual.inlay-hint.type"      = { fg = "light_gray" }
+"ui.virtual.jump-label"           = { fg = "white", modifiers = ["bold", "italic"] }
+"ui.virtual.ruler"                = { bg = "light_gray" }
+"ui.virtual.whitespace"           = { fg = "light_gray" }
 "ui.virtual.wrap"                 = { fg = "light_gray" }
-"ui.menu"                         = { fg = "white", bg = "dark_gray" }
-"ui.menu.selected"                = { fg = "white", bg = "gray", modifiers = ["bold"] }
-"ui.menu.scroll"                  = { fg = "light_gray", bg = "dark_gray" }
-"ui.selection"                    = { bg = "smoke" }
-"ui.selection.primary"            = { bg = "smoke" }
-"ui.highlight"                    = { bg = "light_gray" }
-"ui.cursorline.primary"           = { bg = "light_gray" }
-"ui.cursorline.secondary"         = { bg = "light_gray" }
-"ui.cursorcolumn.primary"         = { bg = "light_gray" }
-"ui.cursorcolumn.secondary"       = { bg = "light_gray" }
+"ui.window"                       = { fg = "white" }
 
 "warning"                         = { fg = "warning", modifiers = ["bold"] }
 "error"                           = { fg = "error", modifiers = ["bold"] }

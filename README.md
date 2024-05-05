@@ -14,26 +14,28 @@ To install the theme you just need to put the `yellowed.toml` file into the them
 
 ## ⚙️ Color Palet
 ~~~
-Interface
-yellow      - [#ffd900]
-gray        - [#2a2a2a]
-dark_gray   - [#242424]
-light_gray  - [#545454]
-purple      - [#994c92]
-blue        - [#008DFF]
-menu        - [#202020]
-selection   - [#3f3f3f]
+# interface
+gray         = "#1F1F1F"
+dark_gray    = "#181818"
+light_gray   = "#303030"
+smoke        = "#565656"
+yellow       = "#FFD900"
+purple       = "#994C92"
+blue         = "#008DFF"
+warning      = "#FF9C00"
+error        = "#FF0000"
+info         = "#0006ab"
+hint         = "#0006ab"
+deprecated   = "#4f4f4f"
+unnecessary  = "#4f4f4f"
 
-Syntax
-text        - [#FFFFFF]
-comment     - [#6b6b6b]
-string      - [#378b1d]
-constants   - [#ff80f4]
-keywords    - [#ffd900]
-warning     - [#FF9C00]
-error       - [#FF0000]
-info        - [#0092FF]
-hint        - [#4DFF00]
+# syntax
+text         = "#FFFFFF"
+comment      = "#6B6B6B"
+string       = "#378B1D"
+constants    = "#FF80F4"
+keywords     = "#FFD900"
+function     = "#9B9B9B"
 ~~~
 
 #### 🗒️ You can find my Helix configuraton [here](https://github.com/Gael-Lopes-Da-Silva/MyHelixConfig).
