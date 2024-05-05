@@ -89,7 +89,7 @@
 "ui.linenr.selected"              = { fg = "yellow", modifiers = ["bold"] }
 "ui.menu"                         = { fg = "white", bg = "dark_gray" }
 "ui.menu.scroll"                  = { fg = "light_gray", bg = "dark_gray" }
-"ui.menu.selected"                = { fg = "white", bg = "gray", modifiers = ["bold"] }
+"ui.menu.selected"                = { fg = "white", bg = "light_gray", modifiers = ["bold", "italic"] }
 "ui.popup"                        = { bg = "dark_gray", fg = "white" }
 "ui.popup.info"                   = { bg = "dark_gray", fg = "white" }
 "ui.selection"                    = { bg = "smoke" }
