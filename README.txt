@@ -3,6 +3,7 @@
 
 Description
 ------------------------------------------------------------------
+
 Yellowed is a simple material dark theme wich focus his syntax
 color on the golden yellow. Its syntax is inspired by the
 gruber-darker theme for emacs, but changed a bit.
