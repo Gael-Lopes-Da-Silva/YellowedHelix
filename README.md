@@ -6,11 +6,13 @@
 
 Description
 ------------------------------------------------------------------
+
 Yellowed is a simple material dark theme wich focus his syntax color on the golden yellow. Its syntax is inspired by the [gruber-darker](https://github.com/rexim/gruber-darker-theme) theme for emacs.
 
 
 Screenshots
 ------------------------------------------------------------------
+
 ![](./screenshots/screenshot1.png)
 ![](./screenshots/screenshot2.png)
 ![](./screenshots/screenshot3.png)
@@ -18,11 +20,13 @@ Screenshots
 
 Installation
 ------------------------------------------------------------------
+
 To install the theme you just need to put the `yellowed.toml` file into the themes folder of your Helix config folder. This one should be on `~/.config/helix/themes` on Linux or `~/AppData/Roaming/helix/themes` on Windows. See [here](https://docs.helix-editor.com/themes.html) for more informations.
 
 
 Colors
 ------------------------------------------------------------------
+
 ~~~
 Interface:
 gray         = "#1F1F1F"
