@@ -130,6 +130,7 @@
 
 [palette]
 # colors
+black        = "#101010"
 white        = "#FFFFFF"
 green        = "#378B1D"
 red          = "#FF0000"
