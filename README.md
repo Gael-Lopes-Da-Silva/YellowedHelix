@@ -27,23 +27,29 @@ To install the theme you just need to put the `yellowed.toml` file into the them
 Colors
 ------------------------------------------------------------------
 
-~~~
-Interface:
+~~~toml
+# colors
+black        = "#101010"
+white        = "#FFFFFF"
+green        = "#378B1D"
+red          = "#FF0000"
+blue         = "#008DFF"
 gray         = "#1F1F1F"
 dark_gray    = "#181818"
 light_gray   = "#303030"
 smoke        = "#565656"
 yellow       = "#FFD900"
 purple       = "#994C92"
-blue         = "#008DFF"
+
+# interface
 warning      = "#FF9C00"
 error        = "#FF0000"
-info         = "#0006ab"
-hint         = "#0006ab"
+info         = "#008DFF"
+hint         = "#008DFF"
 deprecated   = "#4f4f4f"
 unnecessary  = "#4f4f4f"
 
-Syntax
+# syntax
 text         = "#FFFFFF"
 comment      = "#6B6B6B"
 string       = "#378B1D"
